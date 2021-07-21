@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'coolvetica';
+    src: url{fonts/coolvetica.ttf};
+    font-style: normal;
+    font-weight: 100;
+}
+
+p {
+    font-family: coolvetica;
+    font-weight: 100;
+}
