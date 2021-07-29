@@ -5,8 +5,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/jpg" href=/images/logo.jpg>
+    <link rel="icon" type="image/jpg" href="/images/logo.jpg"/>
     <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <title>Vital Body Scan</title>
 </head>
 
@@ -17,7 +20,7 @@
     <div id="wrapper">
         <header>
             <h1 style="font-size:150%;">Vital Body Scan</h1>
-            <img src=images/logo.jpg alt=”Image” height=50px width=50px </footer>
+            <img src="images/logo.jpg" alt="Logo" height="50" width="50">
         </header>
 
         <nav>
@@ -29,15 +32,49 @@
                         <li> <a href="What-we-do.html"> What we do </a> </li>
                         <li> <a href="about.html"> About Us </a> </li>
                     </ul>
+                </li>
 
 
                 <li> <a href="contact.html"> Contact </a> </li>
             </ul>
-
         </nav>
 
-        <footer>
 
+        <div class="container">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+              </ol>
+          
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+                <div class="item active">
+                  <img src="/images/optimized/resultsheet.jpg" alt="Scan results" style="width:100%;">
+                </div>
+          
+                <div class="item">
+                  <img src="/images/optimized/machineclose.jpg" alt="Machine screen" style="width:100%;">
+                </div>
+              
+                <div class="item">
+                  <img src="/images/optimized/machineuse.jpg" alt="Scanning on machine" style="width:100%;">
+                </div>
+              </div>
+          
+              <!-- Left and right controls -->
+              <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
     </div>
 
 </body>
