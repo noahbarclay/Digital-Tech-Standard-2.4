@@ -1,8 +1,12 @@
 @font-face {
     font-family: 'coolvetica';
-    src: url{fonts/coolvetica.ttf};
+    src: url:fonts/coolvetica.ttf};
     font-style: normal;
     font-weight: 100;
+}
+
+.container1 {
+	max-height: 2px;
 }
 
 p {
