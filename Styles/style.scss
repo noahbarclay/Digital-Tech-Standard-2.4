@@ -1,8 +1,20 @@
+:root{
+	--custom-blue: #4b4bff;
+}
 
+*{
+	text-decoration: none;
 }
 
 .container1 {
 	max-height: 2px;
+}
+
+p.cool {
+	font-family: "Times New Roman", Times, serif;
+  }
+h1 {
+	font-family: coolvetica;
 }
 
 p {
@@ -12,7 +24,6 @@ p {
 }
 
 body {
-	background-color: white
 	padding: 0%;
 	margin: 0%;
 }
@@ -27,7 +38,7 @@ header h1 {
 }
 
 nav {
-	background-color: white
+	background-color: white;
 	color: white;
 }
 
@@ -60,23 +71,13 @@ nav li ul li {
 	width: 88%;
 }
 
-/* Hover and reveal dropdown*/
-nav li:hover .hidden {
-	opacity: 1;
-}
-
-.hidden {
-	opacity: 0;
-	transition: all 0.5s ease;
-}
-
-
 /* navigation boxes vvv */
 
 nav ul li {
 	display: inline-block;
 	margin: 0 5%;
 	color: white;
+	text-decoration: none;
 }
 
 nav ul li a {
@@ -84,16 +85,24 @@ nav ul li a {
 	padding: 10px;
 	color: white;
 	text-decoration: none;
+    &:hover{
+        color: red;
+    }
 }
+
+nav ul li a:hover {
+	text-decoration: none;
+	&:hover{
+		text-decoration: none;
+	} 
+}
+
 
 nav ul {
 	margin: 0px;
-	color: rgb(201, 201, 201);
-	background-color: rgb(165, 165, 165);
-}
-
-li :hover {
-	color: black;
+	color: var(--custom-blue);
+	background-color: var(--custom-blue);
+	text-decoration: none;
 }
 
 /* navigation boxes ^^^ */

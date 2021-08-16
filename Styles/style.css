@@ -1,0 +1,117 @@
+:root {
+  --custom-blue: #4b4bff;
+}
+
+* {
+  text-decoration: none;
+}
+
+.container1 {
+  max-height: 2px;
+}
+
+p.cool {
+  font-family: "Times New Roman", Times, serif;
+}
+
+h1 {
+  font-family: coolvetica;
+}
+
+p {
+  font-family: coolvetica;
+  font-weight: 100;
+  text-align: center;
+}
+
+body {
+  padding: 0%;
+  margin: 0%;
+}
+
+header {
+  background-color: white;
+  color: white;
+}
+
+header h1 {
+  color: black;
+}
+
+nav {
+  background-color: white;
+  color: white;
+}
+
+/* boxes */
+#leftbox {
+  float: left;
+  width: 50%;
+  height: 100px;
+}
+
+#rightbox {
+  float: left;
+  width: 50%;
+  height: 100px;
+}
+
+/* drop-down */
+nav li ul {
+  padding: 0px;
+  position: absolute;
+  margin-left: 0px;
+  margin-top: 10px;
+}
+
+nav li ul li {
+  display: block;
+  padding: 10px;
+  width: 88%;
+}
+
+/* navigation boxes vvv */
+nav ul li {
+  display: inline-block;
+  margin: 0 5%;
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: red;
+}
+
+nav ul li a:hover {
+  text-decoration: none;
+}
+
+nav ul li a:hover:hover {
+  text-decoration: none;
+}
+
+nav ul {
+  margin: 0px;
+  color: var(--custom-blue);
+  background-color: var(--custom-blue);
+  text-decoration: none;
+}
+
+/* navigation boxes ^^^ */
+div {
+  background-color: white;
+  text-align: center;
+}
+
+footer {
+  background-color: white;
+  height: 50%;
+}
+/*# sourceMappingURL=style.css.map */
