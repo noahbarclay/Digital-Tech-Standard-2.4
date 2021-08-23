@@ -1,13 +1,20 @@
 <?php include("head-nav.html");?>
 
-
 <p>About</p>
 
 <button onclick="myFunction()">Try it</button>
 
 <p id="demo"></p>
 
-<?php include("footer.html");?>
+<script>
+function myFunction() {
+  var person = prompt("Please enter your name", "Enter Here");
+  if (person != null) {
+    document.getElementById("demo").innerHTML =
+    "Hello " + person + "! How are you today?";
+  }
+}
+</script>
 
-<p>edit</p>
+<?php include("footer.html");?>
 
