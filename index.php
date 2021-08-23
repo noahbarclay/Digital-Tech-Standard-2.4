@@ -1,5 +1,6 @@
 <?php include("head-nav.html");?>
 
+<span>
     <div class="container1">
       <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
@@ -23,20 +24,16 @@
             <img src="http://localhost/L2%20web/Digital-Tech-Standard-2.4/images/optimized/machineuse.jpg" alt="Scanning on machine" style="width:100%;">
           </div>
         </div>
-
-        <!-- Left and right controls -->
-        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-          <span class="glyphicon glyphicon-chevron-left"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" data-slide="next">
-          <span class="glyphicon glyphicon-chevron-right"></span>
-          <span class="sr-only">Next</span>
-        </a>
       </div>
     </div>
-  </div>
+  <span>
 
+  <img src="http://localhost/L2%20web/Digital-Tech-Standard-2.4/images/crop.jpg" alt="Scanning on machine" style="width:100%;">
 
-
+<div>
 <?php include("footer.html");?>
+</div>
+
+</body>
+
+</html>
