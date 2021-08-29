@@ -28,12 +28,6 @@
     </div>
   <span>
 
-  <img src="http://localhost/L2%20web/Digital-Tech-Standard-2.4/images/crop.jpg" alt="Scanning on machine" style="width:100%;">
+  <img src="http://localhost/L2%20web/Digital-Tech-Standard-2.4/images/crop.jpg" alt="Scanning on machine" style="width:102%;">
 
-<div>
 <?php include("footer.html");?>
-</div>
-
-</body>
-
-</html>
