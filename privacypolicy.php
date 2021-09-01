@@ -1,5 +1,12 @@
 <?php include("head-nav.html");?>
 
+<div class="privacy">
+
+<button onclick="increase()">+</button>
+            <button onclick="decrease()">−</button>
+
+        <p3>Use the plus and minus buttons to increase and decrease text size.</p3>
+
 <h1>Privacy Policy for Vital Body Scan</h1>
 
 <p>At Vital Body Scan, accessible from Vitalbodyscan.co.nz, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Vital Body Scan and how we use it.</p>

@@ -10,6 +10,58 @@
   max-height: 2px;
 }
 
+.privacy {
+  padding-top: 1%;
+  padding-left: 15%;
+  padding-right: 0%;
+  text-align: left;
+  margin-right: 0%;
+}
+
+html, body {
+  --font-size: 16;
+  --min-font-size: 14;
+  --max-font-size: 24;
+  margin: 0;
+  padding: 0px;
+}
+
+p {
+  --font-scale: calc(
+		calc(var(--font-size) - var(--min-font-size))) /
+		calc(var(--max-font-size) - var(--min-font-size)
+	);
+  max-width: 550px;
+  font-size: calc(var(--font-size) * 1px);
+  line-height: 1.5;
+  font-family: 'Noboto Flex', serif;
+  font-optical-sizing: auto;
+  font-variation-settings: "wght" calc(200 + calc(50 * var(--font-scale))), "SPAC" calc(100 + calc(100 * var(--font-scale)));
+  margin-right: 0%;
+}
+
+button {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 2em;
+  height: 2em;
+  font-size: 1.5em;
+  font-family: monospace;
+  background: transparent;
+  border: solid 1px #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
 p.cool {
   font-family: "Times New Roman", Times, serif;
 }
@@ -19,9 +71,7 @@ h1, h2, h3 {
 }
 
 p {
-  font-family: coolvetica;
-  font-weight: 100;
-  text-align: center;
+  font-family: arial;
 }
 
 body {
@@ -100,6 +150,10 @@ div {
 footer {
   background-color: white;
   height: 50%;
+}
+
+p.copyright {
+  text-align: center;
 }
 
 .footer-clean {
