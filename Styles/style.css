@@ -241,4 +241,12 @@ p.copyright {
   font-size: 13px;
   opacity: 0.6;
 }
+
+.col-sm-4 {
+  background-color: white;
+}
+
+i {
+  text-align: centre;
+}
 /*# sourceMappingURL=style.css.map */
