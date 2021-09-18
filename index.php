@@ -31,6 +31,7 @@
   <img src="http://localhost/L2%20web/Digital-Tech-Standard-2.4/images/crop.jpg" alt="Scanning on machine" style="width:102%;">
 
 
+  <div class="w3-content" style="max-width:1900px">
 
   <!-- About Section -->
  <div style="max-width: 1400px; margin:0 auto;"> 
@@ -101,7 +102,7 @@
   <!-- The Booking Section -->
 
   <div class="w3-black" id="tour">
-    <div class="w3-container w3-padding-64" style="max-width:1700px;background-color:black">
+    <div style="max-width:1900px;background-color:black;width:1200px; margin:0 auto;padding:64px;">
       <h2 style="text-size:100px" class="w3-wide w3-center w3-padding">SCANNING DATES</h2>
       <div class="w3-row-padding w3-padding-32" style="margin:0 0px">
         <div class="w3-third w3-margin-bottom">
