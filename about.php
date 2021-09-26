@@ -14,8 +14,14 @@
    </div>
    <!-- Hide this text on small devices -->
    <div class="w3-col m6 w3-hide-small w3-padding-epic" style="padding: 70px 0px 100px 0px">
-      <p>To be completely honest, when I was first scanned it was a shock to the system. Having already used other BIA technology, I had a fair idea of where I was sitting but was unaware of how inaccurate these can actually be.
-         Having already lost 18kg I wasn’t feeling my heaviest at 69.5kg but could visibly see that there was a lot of room for improvement.  After I had my first scan I could see that I was still sitting at 35.7% body fat.  Instead of focusing on the negative (the dreaded body fat!) they were able to show me that I had a good amount of muscle mass and there were other positive numbers that ticked all the boxes.
+      <p>To be completely honest, when I was first scanned it was a shock to the system. 
+         Having already used other BIA technology, I had a fair idea of where I was sitting 
+         but was unaware of how inaccurate these can actually be.
+         Having already lost 18kg I wasn’t feeling my heaviest at 69.5kg but could visibly see 
+         that there was a lot of room for improvement.  After I had my first scan I could see that 
+         I was still sitting at 35.7% body fat.  Instead of focusing on the negative (the dreaded body fat!) 
+         they were able to show me that I had a good amount of muscle mass and there were other positive numbers 
+         that ticked all the boxes.
       </p>
    </div>
 </div>
